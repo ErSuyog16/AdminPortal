@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/NewsAdminPortal/static/css/main.117be3a4.css",
+    "main.js": "/NewsAdminPortal/static/js/main.1e2d69cb.js",
+    "index.html": "/NewsAdminPortal/index.html",
+    "main.117be3a4.css.map": "/NewsAdminPortal/static/css/main.117be3a4.css.map",
+    "main.1e2d69cb.js.map": "/NewsAdminPortal/static/js/main.1e2d69cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.117be3a4.css",
+    "static/js/main.1e2d69cb.js"
+  ]
+}
