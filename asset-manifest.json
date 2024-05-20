@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/AdminPortal/static/css/main.117be3a4.css",
-    "main.js": "/AdminPortal/static/js/main.5367baba.js",
+    "main.js": "/AdminPortal/static/js/main.dc5e6c05.js",
     "index.html": "/AdminPortal/index.html",
     "main.117be3a4.css.map": "/AdminPortal/static/css/main.117be3a4.css.map",
-    "main.5367baba.js.map": "/AdminPortal/static/js/main.5367baba.js.map"
+    "main.dc5e6c05.js.map": "/AdminPortal/static/js/main.dc5e6c05.js.map"
   },
   "entrypoints": [
     "static/css/main.117be3a4.css",
-    "static/js/main.5367baba.js"
+    "static/js/main.dc5e6c05.js"
   ]
 }
