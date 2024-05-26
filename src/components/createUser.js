@@ -34,7 +34,10 @@ function CreateUser() {
     };
 
     axios
-      .post("https://newsserver-1.onrender.com/users/create", userObject)
+      .post(
+        "https://express-hello-world-pq27.onrender.com/users/create",
+        userObject
+      )
       .then((res) => {
         console.log(res.data);
         alert("User Information Registered");
