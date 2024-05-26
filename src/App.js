@@ -16,7 +16,7 @@ function App() {
     <Router>
       <div className='App'>
         <header className='App-header'>
-          {/* Fixed Navbar */}
+         
           <div className='fixed-top-navbar'>
             {" "}
             <Navbar
