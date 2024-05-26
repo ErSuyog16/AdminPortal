@@ -35,7 +35,7 @@ function CreateUser() {
 
     axios
       .post(
-        "https://express-hello-world-pq27.onrender.com/users/create",
+        "https://newsserver-1.onrender.com/users/create",
         userObject
       )
       .then((res) => {
