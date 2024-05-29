@@ -154,7 +154,7 @@ const NewsArticles = () => {
       setLoading(true);
       console.log(articleToDelete._id);
       const response = await axios.delete(
-        `http://localhost:4001/api/news/${articleToDelete._id}`
+        `https://newsserver-1.onrender.com/api/news/${articleToDelete._id}`
       );
       setLoading(false);
       console.log(response);
@@ -180,7 +180,7 @@ const NewsArticles = () => {
   const handleUpdate = async () => {
     try {
       await axios.put(
-        `http://localhost:4001/api/news/${selectedArticle._id}`,
+        `https://newsserver-1.onrender.com/api/news/${selectedArticle._id}`,
         formValues
       );
       setShowUpdateModal(false);
