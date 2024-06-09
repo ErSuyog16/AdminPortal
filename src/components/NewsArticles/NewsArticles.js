@@ -133,7 +133,7 @@ const NewsArticles = () => {
     try {
       const response = await axios.get(`https://newsserver-1.onrender.com/`);
       console.log(response);
-      setArticles(response.data.reverse());
+      setArticles(response.data);
       setTotalPages(Math.ceil(response.data.total / articlesPerPage));
     } catch (error) {
       console.error("Error fetching articles:", error);
